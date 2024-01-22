@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+html {
+    background-color: black;
+}
+
+.header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px 10px 0 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+.header-photo {
+    width: 100%;
+    height: auto;
+}
+
+@keyframes runningLine {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.running-line {
+    animation: runningLine 6s linear infinite;
+}
+
+main {
+    padding: 20px;
+}
+
+
+section {
+    margin-bottom: 20px;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.footer2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #333;  
+    color: white; 
+}
+
+.longLine {
+    border: solid 0.5px;
+    color: white;
+}   
+.footer1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #333;
+    color: white;
+}
+.line {
+    border: solid 2px;
+    width: 40px;
+    color: white;
+}
+
+h2 {
+    margin-bottom: 0;
+}
+#footer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
+.icon-btn {
+	float: left;
+	border: 0;
+	color: #FFFFFF;
+	font-size: 40px;
+	border-radius: 45px;
+	display: inline-block;
+	margin: 5px;
+}
+.twitter {
+	color: #4099FF;
+}
+.facebook {
+	color: #3B5998;
+}
+.google-plus {
+	 color: #DB5A3C;
+}
+.instagram {
+	color: #5C3D2E;
+}
+.github {
+	color: #4183C4;
+}
+.icon-btn:hover {
+	transform: scale(1.10);
+	color: #FFFFFF;
+}
+.twitter:hover {
+	background-color: #4099FF;
+}
+.facebook:hover {
+	background-color: #3B5998;
+}
+.google-plus:hover {
+	 background-color: #DB5A3C;
+}
+.instagram:hover {
+	background-color: #5C3D2E;
+}
+.github:hover {
+	background-color: #4183C4;
+}
