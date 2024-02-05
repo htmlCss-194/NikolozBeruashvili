@@ -1,0 +1,227 @@
+@font-face {
+    font-family: montserrat;
+    src: url(/fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+:root {
+    --green:    #1BC768;
+}
+
+body {
+    background-color: #26335D;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 100px;
+}
+#nav{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+#nav:hover {
+    background-color: var(--green);
+}
+
+.login {
+    display: flex;
+    justify-content: space-between;
+    /* margin-left: 240px; */
+    align-items: center ; 
+ 
+}
+h3 {
+    color: white;
+    font-family: montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    width: 179px;
+    height: 32px;
+}
+
+    .navbar a {
+    color: var(--second-text-color, #737373);
+    text-align: center;
+    font-family: montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; 
+    letter-spacing: 0.2px;
+    margin-right:  21px;
+}
+
+#loginBtn {
+    margin-right: 41px;
+    background-color: transparent;
+    border: transparent;
+    color: var(--primary-color, #96BB7C);
+    text-align: right;
+    font-family: montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+}
+
+
+#joinBtn {
+    display: flex;
+    padding: 15px 25px;
+    align-items: center;
+    gap: 15px;
+    border-radius: 5px;
+    background: var(--green);
+    border: transparent;
+    font-family: Montserrat;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+
+}
+
+#meet {
+    width: 542px;
+    color: white;
+    font-family: Montserrat;
+    font-style: normal;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    font-family: montserrat;
+    font-size: 58px;
+    font-weight: 700;
+    text-align: left;
+
+}
+
+h5 {
+    color: var(--green);
+    font-family: montserrat;
+    font-style: normal;
+    letter-spacing: 0.2px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+
+}
+
+h4 {
+    color: white;
+    font-family: montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+}
+
+
+.buttons {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+#btn1 {
+    display: flex;
+    padding: 15px 40px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    background: var(--green);
+    color: var(--light-text-color, #FFF);
+    text-align: center;
+    font-family: montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px; 
+    letter-spacing: 0.2px;
+    border: transparent;
+}
+
+.meet {
+    display: flex;
+    width: 573px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 30px;
+    flex-shrink: 0;
+}
+
+
+#btn2 {
+    display: flex;
+    padding: 15px 40px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--green);
+    color: var(--green);
+    text-align: center;
+    font-family: montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px; 
+    letter-spacing: 0.2px;
+    background-color: transparent;
+    
+}
+
+.body {
+    display: flex;  
+    justify-content: space-evenly; 
+    align-items: center;
+    gap: 30px;
+    flex-shrink: 0;
+}
+
+.imgs {
+    width: 648.17px; 
+    position: relative;
+    top: 250px;
+}
+
+#img1 {
+    width: 424.41px;
+    height: 516.8px;
+    border-radius: 34.38px;
+    position: relative;
+    top: -451px;
+}
+
+#img2 {
+    width: 460.5px;
+    height: 450.4px;
+    left: 187.67px;
+    border-radius: 34.38px;
+    position: relative;
+}

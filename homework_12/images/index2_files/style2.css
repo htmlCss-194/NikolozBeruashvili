@@ -1,0 +1,128 @@
+:root {
+    --green:  #1BC768;
+    --mainTxt: #252B42;
+    --pTags: #737373;
+    --imgs:  #DDEEFE;
+
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(/fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;   
+}
+
+.online {
+    padding-left: 300px;
+}
+h6 {
+    color: var(--green);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;     
+}
+
+h2 {
+
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: var(--mainTxt);
+}
+
+#problems {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: var(--pTags);
+    width: 469px;
+    height: 40px;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 100px 50px 100px ;
+}
+
+
+
+
+
+#line {
+    width: 50px;
+    height: 2px;
+    background-color: #E74040;
+}
+
+.services p{
+    width: 132px;
+    height: 60px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: var(--pTags);
+
+}
+
+.service1 { 
+    padding :35px 40px 35px 40px;
+    gap: 20px; 
+    box-shadow: 0px 13px 19px 0px #00000012;
+}
+
+.service2 { 
+    padding :35px 40px 35px 40px;
+    gap: 20px; 
+    box-shadow: 0px 13px 19px 0px #00000012;
+}
+
+.service3 { 
+    padding :35px 40px 35px 40px;
+    gap: 20px; 
+    box-shadow: 0px 13px 19px 0px #00000012;
+}
+
+.service4 { 
+    padding :35px 40px 35px 40px;
+    gap: 20px; 
+    box-shadow: 0px 13px 19px 0px #00000012;
+}
+
+
+img {
+    width: 32px;
+    height: 32px;
+    border-radius: 10px;
+    padding: 22px 19px 22px 19px;
+    border: solid transparent;
+    gap: 10px;
+    background-color: var(--imgs);
+}
+
+h5 {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    color: var(--mainTxt);
+}
